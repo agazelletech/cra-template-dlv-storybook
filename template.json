@@ -28,6 +28,10 @@
       },
       "eslintConfig": {
         "extends": ["react-app", "react-app/jest"]
+      },
+      "scripts": {
+        "storybook": "start-storybook -p 6006 -s public 'BROWSER=firefox' --no manager-cache",
+        "build-storybook": "build-storybook -s public"
       }
 
     }
