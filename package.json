@@ -1,5 +1,4 @@
 {
-  "main": "template.json",
   "name": "cra-template-dlv-storybook",
   "version": "1.1.2",
   "keywords": [
@@ -11,10 +10,11 @@
     "styled-components"
   ],
   "description": "The DLV base template for Create React App with Storybook and Styled-Components.",
+  "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/agazelletech/cra-template-dlv-storybook",
-    "directory": "/"
+    "url": "https://github.com/agazelletech/cra-template-dlv-storybook.git",
+    "directory": "packages/cra-template-dlv-storybook"
   },
   "license": "MIT",
   "engines": {
